@@ -28,7 +28,7 @@ public class ServiceStationForWorkers implements ServiceStation {
             System.out.println("Все покрышки установлены");
             truck.checkEngine();
             System.out.println("Двигатель успешно проверен");
-            truck.checkTrailer();
+            truck.checkTrailer(truck);
             System.out.println("Прицеп успешно проверен");
         }
     }

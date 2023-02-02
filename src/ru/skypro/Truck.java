@@ -14,7 +14,7 @@ public class Truck extends Vehicle {
         System.out.println("Проверяем двигатель у грузовика");
     }
     @Override
-    public void checkTrailer() {
+    public void checkTrailer(Truck truck) {
         System.out.println("Проверяем прицеп грузовика");
     }
 }

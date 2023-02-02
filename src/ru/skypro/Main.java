@@ -27,15 +27,15 @@ public class Main {
         ServiceStation serviceStationForWorkers = new ServiceStationForWorkers();
         ServiceStation serviceStationForGuests = new ServiceStationForGuests();
 
-        print(serviceStationForWorkers, car, bicycle, truck);
-        print(serviceStationForWorkers, car2, bicycle2, truck2);
+//        print(serviceStationForWorkers, car, bicycle, truck);
+//        print(serviceStationForWorkers, car2, bicycle2, truck2);
 
-        print(serviceStationForGuests, car, null, null);
-        print(serviceStationForGuests, car2, null, null);
-        print(serviceStationForGuests, null, bicycle, null);
-        print(serviceStationForGuests, null, bicycle2, null);
-        print(serviceStationForGuests, null, null, truck);
-        print(serviceStationForGuests, null, null, truck2);
+//        print(serviceStationForGuests, car, null, null);
+//        print(serviceStationForGuests, car2, null, null);
+//        print(serviceStationForGuests, null, bicycle, null);
+//        print(serviceStationForGuests, null, bicycle2, null);
+//        print(serviceStationForGuests, null, null, truck);
+//        print(serviceStationForGuests, null, null, truck2);
 
     }
 
